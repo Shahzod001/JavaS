@@ -23,30 +23,6 @@
                     <div class="alert alert-primary mx-3 mt-5 alert-js-fizzbuzz" role="alert"></div>
                 </div>
             </div>
-            
-            <div class="convertter">
-                <h2 class="text-center text-info mt-4">Currency Converter</h2>
-                <div class="d-md-flex align-items-center m-3">
-                    <form class=" row form-js w-100 align-items-center justify-content-between" method="POST">
-                        <div class="col-12 col-md-4">
-                            <input class=" form-control form-control-lg input-js me-2 p-2"type="text" placeholder="Enter number" aria-label=" number ">
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <select class="form-select select-js my-4 my-md-0 p-2">
-                                <option selected hidden>Select your currency</option>
-                                <option value="11025.00">USD</option>
-                                <option  value="10200.00">EVRO</option>
-                                <option  value="130.00">RUBL</option>
-                                <option  value="95.00">YUAN</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <button class="border border-dark rounded bg-transparent w-100 p-2" type="submit">Convert</button>
-                        </div>
-                    </form>
-                    <p class="text d-flex border border-dark p-2 text-center me-4 mb-0 mt-4 me-md-0 rounded ms-md-2 mt-md-0"><span class="text-white bg-black span-js">00</span> so'm</p>
-                </div>
-            </div>
         </div>
     </header>
     <!-- SITE HEADER FINISH -->
@@ -56,7 +32,32 @@
         <!-- HERO SECTION START -->
         <section class="hero">
             
-            
+            <div class="container">
+                <div class="convertter">
+                    <h2 class="text-center text-info mt-4">Currency Converter</h2>
+                    <div class="d-md-flex align-items-center m-3">
+                        <form class=" row form-js w-100 align-items-center justify-content-between" method="POST">
+                            <div class="col-12 col-md-4">
+                                <input class=" form-control form-control-lg input-js me-2 p-2"type="text" placeholder="Enter number" aria-label=" number ">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <select class="form-select select-js my-4 my-md-0 p-2">
+                                    <option selected hidden>Select your currency</option>
+                                    <option value="11025.00">USD</option>
+                                    <option  value="10200.00">EVRO</option>
+                                    <option  value="130.00">RUBL</option>
+                                    <option  value="95.00">YUAN</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <button class="border border-dark rounded bg-transparent w-100 p-2" type="submit">Convert</button>
+                            </div>
+                        </form>
+                        <p class="text d-flex border border-dark p-2 text-center me-4 mb-0 mt-4 me-md-0 rounded ms-md-2 mt-md-0"><span class="span-js">0</span> so'm</p>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!-- HERO SECTION FINISH -->
     </main>
