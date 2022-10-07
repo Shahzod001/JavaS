@@ -7,12 +7,12 @@ elFormFizzBuzz.addEventListener("submit" , function(evn){
 
     var elNumber = Number(elInputFizzBuzz.value)
 
-    if (elNumber % 3 == 0 && elNumber % 5 == 0) {
+    if (elNumber % 3 == 0 && elNumber % 5 == 0 && elNumber != 0) {
         elAlertFizzBuzz.textContent = "FizzBuzz"
-    }else if(elNumber % 3 == 0){
+    }else if(elNumber % 3 == 0 && elNumber != 0){
         elAlertFizzBuzz.textContent = "Fizz"
 
-    }else if(elNumber % 5 == 0){
+    }else if(elNumber % 5 == 0 && elNumber != 0){
         elAlertFizzBuzz.textContent = "Buzz"
 
     }else{
